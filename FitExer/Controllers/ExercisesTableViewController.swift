@@ -39,6 +39,7 @@ class ExercisesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
 
@@ -89,7 +90,26 @@ class ExercisesTableViewController: UITableViewController {
         
         tableView.deselectRow(at: indexPath, animated: true)
     }
+    
 
+
+}
+
+//MARK: - Search Bar Methods
+extension ExercisesTableViewController: UISearchBarDelegate {
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        
+        DispatchQueue.main.sync {
+            searchBar.resignFirstResponder()
+        }
+        
+    }
     
 }
 
