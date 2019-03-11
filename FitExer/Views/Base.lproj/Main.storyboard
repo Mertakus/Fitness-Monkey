@@ -26,7 +26,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LabelCell" textLabel="hLS-EB-vUP" rowHeight="60" style="IBUITableViewCellStyleDefault" id="kpp-78-O5s">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExerciseCell" textLabel="hLS-EB-vUP" rowHeight="60" style="IBUITableViewCellStyleDefault" id="kpp-78-O5s">
                                 <rect key="frame" x="0.0" y="72" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kpp-78-O5s" id="vPS-au-sXW">
@@ -52,7 +52,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Fitness Monkey" id="9DS-na-ALE"/>
                     <connections>
-                        <segue destination="2Z5-mi-QLg" kind="show" identifier="goToExercise" id="541-D7-bKb"/>
+                        <segue destination="2Z5-mi-QLg" kind="show" identifier="goToExplanation" id="541-D7-bKb"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IK8-P4-5WQ" userLabel="First Responder" sceneMemberID="firstResponder"/>

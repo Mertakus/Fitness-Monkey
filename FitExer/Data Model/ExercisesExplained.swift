@@ -12,7 +12,7 @@ import RealmSwift
 class ExercisesExplained: Object {
     var image = UIImage()
     var text : String = ""
-    let theExercises = List<Exercises>()
+    var parentExercise = LinkingObjects(fromType: Exercises.self, property: "theExercises")
 }
 
 //This essentially defines the forward relationship, i.e. inside each Exercise there's this thing calles

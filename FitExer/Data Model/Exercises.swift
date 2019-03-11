@@ -11,5 +11,5 @@ import RealmSwift
 
 class Exercises: Object {
     @objc dynamic var name : String = ""
-    var parentExercise = LinkingObjects(fromType: ExercisesExplained.self, property: "theExercises")
+    let theExercises = List<ExercisesExplained>()
 }
